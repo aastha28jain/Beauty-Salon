@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,intial-scale=1, shrink-to-fit=no">
+<title>Beauty Website</title>
+<!--Bootstrap 5 cdn link-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--FAVICON-->
+<link rel="icon" type="png" href="file:///C:/Users/vinod%20verma/Downloads/18_Hotel_images/images/favicon.png">
+<!--SWIPER LINK-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+
+<!--custom link-->
+<link rel="stylesheet" href="css.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+<!--NAVBAR SECTION-->
+<header class="header_wrapper">
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+	 <img src="images/logo.jpg" class="img-fluid">
+	</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <!--<span class="navbar-toggler-icon"></span>-->
+	  <i class="fas fa-stream"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav menu-navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+		</li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#team">Team</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#price">Price</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+		<li class="nav-item mt-3 mt-lg-0">
+          <a class="main-btn" href="#">Book Now</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<!--NAVBAR SECTION EXIT-->
+
+<!--BANNER SECTION-->
+<section id="home" class="banner_wrapper p-0">
+ <div class="swiper mySwiper">
+   <div class="swiper-wrapper">
+    <div class="swiper-slide" style="background-image:url('file:///C:/Users/vinod%20verma/Downloads/18_Hotel_images/images/slider/slider2.webp');">
+	  <div class="slide-caption text-center">
+	     <div>
+	     <h1>Welcome to Beauty Salon</h1>
+		 <p>Indulge in expert care, luxurious treatments and personalized services. Our skilled professionals are dedicated to enhancing your natural beauty and confidence.</p>
+	  </div>
+	  </div>
+	</div>
+	<div class="swiper-slide" style="background-image:url('file:///C:/Users/vinod%20verma/Downloads/18_Hotel_images/images/slider/slider1.webp');">
+	  <div class="slide-caption text-center">
+	     <div>
+	     <h1>Welcome to Beauty Salon</h1>
+		 <p>Your go-to destination for beauty and relaxation. Enjoy expert care, personalized treatments, and luxurious services that leave beautifully pampered every time you visit</p>
+	  </div>
+	  </div>
+	</div>
+  </div>
+  <div class="swiper-pagination"></div>
+ </div>
+    <div class="container booking-area">
+	  <form class="row">
+	     <div class="col-lg mb-3 mb-lg-0">
+		     <input type="date" class="form-control" placeholder="Date">
+		 </div>
+		 <div class="col-lg mb-3 mb-lg-0">
+			<select class="form-select">
+			    <option selected>Service</option>
+				<option value="1">Hair Spa</option>
+				<option value="2">MakeUp</option>
+				<option value="3">Nails</option>
+				<option value="4">Keratin</option>
+				<option value="5">Hair Cut</option>
+			 </select>
+		 </div>
+		 <div class="col-lg mb-3 mb-lg-0">
+		     <select class="form-select">
+			    <option selected>Adult</option>
+				<option value="1">20-30</option>
+				<option value="2">30-40</option>
+				<option value="3">40-59</option>
+				<option value="4">50-60</option>
+				<option value="5">60+</option>
+			 </select>
+		 </div>
+		 <div class="col-lg mb-3 mb-lg-0">
+		     <select class="form-select">
+			    <option selected>Children</option>
+				<option value="1">Less than 5</option>
+				<option value="2">5-10</option>
+				<option value="3">11-15</option>
+				<option value="4">15-20</option>
+			 </select>
+		 </div>
+		 <div class="col-lg mb-3 mb-lg-0">
+		   <button type="submit" class="main-btn rounded-2 px-lg-3">Check Availability</button>
+		 </div>
+	  </form>
+	</div>
+</section>
+<!--BANNER SECTION EXIT-->
+
+<!--ABOUT SECTION-->
+<section id="about" class="about_wrapper">
+  <div class="container">
+     <div class="row flex-lg-row flex-column-reverse">
+	     <div class="col-lg-6 text-center text-lg-start">
+		      <h3>Welcome to <span>Salon<br class="d-none d-lg-block">
+			       the heaven</span> of your weekend</h3>
+				<p>Where elegance meets excellence! We offer a wide range of services, including skincare,
+					hair styling, makeup, nail art, and spa treatments, tailored to enhance your natural 
+					beauty. Our experienced professionals use top-quality products in a relaxing, luxurious 
+					environment.</p>
+					<p>Whether it’s a special occasion or everyday glam, let us help you feel 
+					confident and radiant. Book your appointment today!</p>
+			    <a href="#" class="main-btn mt-4">Explore</a>		 
+		 </div>
+		 <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+		   <img src="images/about.jpg" class="img-fluid1" alt="about">
+		 </div>
+	 </div>
+  </div>
+</section>
+<!--ABOUT SECTION EXIT-->
+
+
+<!--SERVICE SECTION-->
+<section id="services" class="services_wrapper">
+  <div class="container">
+     <div class="row">
+	     <div class="col-sm-12 section-title text-center mb-5">
+		    <h6>We Are Here For You</h6>
+			<h3>Our Awesome Services</h3>
+		 </div>
+	 </div>
+	 <div class="row align-items-center service-item-wrap">
+	     <div class="col-lg-7 p-lg-0">
+		    <div class="tab-content" id="myTabContent">
+             <div class="tab-pane fade show active" role="tabpanel">
+			     <img src="images/services..webp">
+			 </div>
+            </div>
+		 </div>
+		 <div class="col-lg-5 position-relative">
+		     <div class="service-menu-area">
+			     <ul class="nav">
+				   <li>
+				     <a data-bs-toggle="tab" href="#spa">
+					    <span class="service-icon">
+						  <img src="images/service4.jpg">
+						</span>
+						<h5 style="font-weight:600;">Spa and Beauty</h5>
+						<p>Relax and rejuvenate with our luxurious spa 
+							treatments, including massages and facial for your 
+							ultimate wellness.</p>
+					 </a>
+				   </li>
+				   <li>
+				     <a data-bs-toggle="tab" href="#makeup">
+					    <span class="service-icon">
+						  <img src="images/service1.jpg">
+						</span>
+						<h5 style="font-weight:600;">MakeUp</h5>
+						<p>Enhance your beauty with our professional makeup services, perfect for 
+							weddings, parties, or everyday glam. Look flawless, feel confident!</p>
+					 </a>
+				   </li>
+				   <li>
+				     <a data-bs-toggle="tab" href="#hair">
+					    <span class="service-icon">
+						  <img src="images/service2.jpeg">
+						</span>
+						<h5 style="font-weight:600;">Hair Treatment</h5>
+						<p>Transform your hair with treatments, including style, keratin,
+							coloring, and nourishing therapies for healthy, shiny, and vibrant locks.</p>
+					 </a>
+				   </li>
+				   <li>
+				     <a data-bs-toggle="tab" href="#nail">
+					    <span class="service-icon">
+						  <img src="images/service3.jpg">
+						</span>
+						<h5 style="font-weight:600;">Nail Art</h5>
+						<p>Pamper your nails with our premium treatments, including manicures, pedicures,
+							 gel polish, nail art, and strengthening therapies for perfection.</p>
+					 </a>
+				   </li>
+				 </ul>
+			 </div>
+		 </div>
+	 </div>
+  </div>
+   
+   <div class="counter mt-5">
+     <div class="container">
+	     <div class="row text-center">
+		     <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+			     <h1>
+				     <span id="count1"></span>+
+				 </h1>
+				 <p>Happy Clients</p>
+			 </div>
+			 <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+			     <h1>
+				     <span id="count2"></span>+
+				 </h1>
+				 <p>New Customers</p>
+			 </div>
+			 <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+			     <h1>
+				     <span id="count3"></span>+
+				 </h1>
+				 <p>Five Star Ratings</p>
+			 </div>
+			 <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+			     <h1>
+				     <span id="count4"></span>+
+				 </h1>
+				 <p>Total clients</p>
+			 </div>
+		 </div>
+	 </div>
+   </div>
+</section>
+<!--SERVICE SECTION EXIT-->
+
+<!--TEAM SECTION-->
+<section id="team" class="team_wrapper">
+ <div class="container">
+     <div class="row">
+	     <div class="col-sm-12 section-title text-center mb-5">
+		   <h6>What I can do for you</h6>
+		   <h3>Our Special Staff</h3><br><br>
+		 </div>
+	 </div>
+	 <div class="row">
+	     <div class="col-lg-3 col-md-6 mb-4">
+		     <div class="card p-0 rounded-3">
+			     <img src="images/staff11.jpg" class="img-fluid rounded-3">
+			      <div class="team-info">
+				    <h5>Shirin Chopra</h5>
+					<p>Manager</p>
+					<ul class="social-network">
+					 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+					 <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+					</ul>
+				  </div>
+			 </div>
+		 </div>
+		 <div class="col-lg-3 col-md-6 mb-4">
+		     <div class="card p-0 rounded-3">
+			     <img src="images/staff2.jpg" class="img-fluid rounded-3">
+			      <div class="team-info">
+				    <h5>Roshan Bhatia</h5>
+					<p>Receptionist</p>
+					<ul class="social-network">
+					 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+					 <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+					</ul>
+				  </div>
+			 </div>
+		 </div>
+		 <div class="col-lg-3 col-md-6 mb-4">
+		     <div class="card p-0 rounded-3">
+			     <img src="images/staff3.jpg" class="img-fluid rounded-3">
+			      <div class="team-info">
+				    <h5>Ashna Pandey</h5>
+					<p>Master Artist</p>
+					<ul class="social-network">
+					 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+					 <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+					</ul>
+				  </div>
+			 </div>
+		 </div>
+		 <div class="col-lg-3 col-md-6 mb-4">
+		     <div class="card p-0 rounded-3">
+			     <img src="images/staff4.jpg" class="img-fluid rounded-3">
+			      <div class="team-info">
+				    <h5>Jassi Singh</h5>
+					<p>Artist</p>
+					<ul class="social-network">
+					 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+					 <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+					</ul>
+				  </div>
+			 </div>
+		 </div>
+	 </div>
+ </div>
+</section>
+<!--TEAM SECTION EXIT-->
+
+<!--GALLERY SECTION-->
+<section id="gallery" class="gallery_wrapper">
+ <div class="container">
+     <div class="row">
+	     <div class="col-sm-12 section-title text-center mb-5">
+			<br><br>
+		    <h6>Best Pictures of Our Services</h6>
+			<h3>Our Gallery</h3>
+		 </div>
+	 </div>
+	 <div class="row g-0">
+	     <div class="col-lg-3 col-md-6 gallery-item">
+		     <img src="images/gallery1.jpg" class="img-fluid w-100">
+		     <div class="gallery-item-content"></div>
+		 </div>
+	     <div class="col-lg-3 col-md-6 gallery-item">
+		     <img src="images/gallery2.jpeg" class="img-fluid w-100">
+		     <div class="gallery-item-content"></div>
+		 </div>
+	     <div class="col-lg-3 col-md-6 gallery-item">
+		     <img src="images/gallery3.jpg" class="img-fluid w-100">
+		     <div class="gallery-item-content"></div>
+		 </div>
+	     <div class="col-lg-3 col-md-6 gallery-item">
+		     <img src="images/gallery4.jpg" class="img-fluid w-100">
+		     <div class="gallery-item-content"></div>
+		 </div>
+	     <div class="col-md-6 gallery-item">
+		     <img src="images/gallery5.jpg" class="img-fluid w-100">
+		     <div class="gallery-item-content"></div>
+		 </div>
+	     <div class="col-md-6 gallery-item">
+		     <img src="images/gallery6.jpg" class="img-fluid w-100">
+		     <div class="gallery-item-content"></div>
+		 </div>
+	 </div>
+ </div>
+</section>
+<!--GALLERY SECTION EXIT-->
+
+<!--PRICING SECTION-->
+<section id="price" class="price_wrapper">
+  <div class="container">
+     <div class="row">
+	     <div class="col-sm-12 section-title text-center mb-5">
+		     <h6>Best Combo for you</h6>
+			 <h3>Our Pricing</h3>
+		 </div>
+	 </div>
+	 <div class="row">
+	     <div class="col-lg-3 col-md-6 mb-4">
+		     <div class="card p-4 text-center rounded-3">
+			     <h5 class="text-decoration-underline mb-4">Basic</h5>
+				 <ul class="list-unstyled">
+				     <li>
+					     <p>Threading</p>
+					 </li>
+					 <li>
+					     <p>Pedicure</p>
+					 </li>
+					 <li>
+					     <p>Hairwash</p>
+					 </li>
+					 <li>
+					     <p>Haircut</p>
+					 </li>
+				 </ul>
+				 <hr />
+				 <h3>$50</h3>
+				 <a href="#" class="main-btn">Sign Up</a>
+			 </div>
+		 </div>
+		 <div class="col-lg-3 col-md-6 mb-4">
+		     <div class="card p-4 text-center rounded-3">
+			     <h5 class="text-decoration-underline mb-4">Economic</h5>
+				 <ul class="list-unstyled">
+				     <li>
+					     <p>De-tan</p>
+					 </li>
+					 <li>
+					     <p>Hairwash</p>
+					 </li>
+					 <li>
+					     <p>Haircut</p>
+					 </li>
+					 <li>
+					     <p>Pedicure</p>
+					 </li>
+				 </ul>
+				 <hr />
+				 <h3>$80</h3>
+				 <a href="#" class="main-btn">Sign Up</a>
+			 </div>
+		 </div>
+		 <div class="col-lg-3 col-md-6 mb-4">
+		     <div class="card p-4 text-center rounded-3">
+			     <h5 class="text-decoration-underline mb-4">Advance</h5>
+				 <ul class="list-unstyled">
+				     <li>
+					     <p>Hair massage</p>
+					 </li>
+					 <li>
+					     <p>De-tan</p>
+					 </li>
+					 <li>
+					     <p>Nail art</p>
+					 </li>
+					 <li>
+					     <p>Hairwash</p>
+					 </li>
+				 </ul>
+				 <hr />
+				 <h3>$100</h3>
+				 <a href="#" class="main-btn">Sign Up</a>
+			 </div>
+		 </div>
+		 <div class="col-lg-3 col-md-6 mb-4">
+		     <div class="card p-4 text-center rounded-3">
+			     <h5 class="text-decoration-underline mb-4">Bridal</h5>
+				 <ul class="list-unstyled">
+				     <li>
+					     <p>Threading</p>
+					 </li>
+					 <li>
+					     <p>HairStyle</p>
+					 </li>
+					 <li>
+					     <p>Basic Nail Art</p>
+					 </li>
+					 <li>
+					     <p>Heavy Makeup</p>
+					 </li>
+				 </ul>
+				 <hr />
+				 <h3>$150</h3>
+				 <a href="#" class="main-btn">Sign Up</a>
+			 </div>
+		 </div>
+	 </div>
+  </div>
+</section>
+<!--PRICING SECTION EXIT-->
+
+<!--BLOG SECTION-->
+<section id="blog" class="blog_wrapper pb-0">
+  <div class="container">
+     <div class="row">
+	     <div class="col-sm-12 section-title text-center mb-5">
+		     <h6>Say Hello To Our Visiters</h6>
+			 <h3>Our Blog</h3>
+		 </div>
+	 </div>
+	 <div class="row">
+         <div class="col-md-6 mb-4">
+		     <div class="card p-0 border-0 rounded-0">
+			     <img src="images/staff11.jpg">
+			     <div class="blog-content bg-white p-4">
+				   <h5 class="text-decoration-underline mb-4">Relax Zone</h5>
+				   <h6>By Admin - February 18, 2023</h6>
+				   <p class="mt-2">Had a wonderful experience, the staff and their services were superb.
+					</p>
+					<a href="#" class="main-btn mt-2">Read More</a>
+				 </div>
+			 </div>
+		 </div>
+		 <div class="col-md-6 mb-4">
+		     <div class="card p-0 border-0 rounded-0">
+			     <img src="images/staff3.jpg">
+			     <div class="blog-content bg-white p-4">
+				   <h5 class="text-decoration-underline mb-4">Relax Zone</h5>
+				   <h6>By Admin - September 18, 2023</h6>
+				   <p class="mt-2">What an amazing salon! Best services and very polite staff. Amazing!
+					</p>
+					<a href="#" class="main-btn mt-2">Read More</a>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+  </div>
+  
+  <div class="our-partner-slider mt-5">
+     <div class="container swiper our-partner">
+	     <div class="swiper-wrapper">
+		     <div class="swiper-slide"><img src="images/img1.jpg"></div>
+			 <div class="swiper-slide"><img src="images/img2.jpg"></div>
+			 <div class="swiper-slide"><img src="images/img3.jpeg"></div>
+			 <div class="swiper-slide"><img src="images/img4.jpg"></div>
+			 <div class="swiper-slide"><img src="images/img5.jpg"></div>
+			 <div class="swiper-slide"><img src="images/img6.jpg"></div>
+		 </div>
+	 </div>
+  </div>
+</section>
+<!--BLOG SECTION EXIT-->
+
+<!--FOOTER SECTION-->
+<section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
+ <div class="container pb-3">
+     <div class="row">
+	     <div class="col-lg-3 col-md-6">
+		     <h5>Salon Location</h5>
+			 <p class="ps-0">We have more than ten branches of our salon.</p>
+				 <div class="contact-info">
+				     <div class="list-unstyled">
+					    <li><a href="#"><i class="fas fa-home me-3"></i> No. 96, South City, Delhi</a></li>
+						<li><a href="#"><i class="fas fa-phone me-3"></i>+91 222 333</a></li>
+						<li><a href="#"><i class="far fa-envelope me-3"></i>info@gmail.com</a></li>
+					 </div>
+				 </div>
+		 </div>
+		 <div class="col-lg-3 col-md-6">
+		     <h5>More info</h5>
+			 <ul class="link-widget p-0">
+			   <li><a href="#">About Us</a></li>
+			   <li><a href="#">Our Office</a></li>
+			   <li><a href="#">Services</a></li>
+			   <li><a href="#">Our Store</a></li>
+			   <li><a href="#">Guarantee</a></li>
+			   <li><a href="#">Buy Gift Card</a></li>
+			   <li><a href="#">Return Policy</a></li>
+			 </ul>
+		 </div>
+		 <div class="col-lg-3 col-md-6">
+		     <h5>More Servicess</h5>
+			 <ul class="link-widget p-0">
+			   <li><a href="#">Pedicure</a></li>
+			   <li><a href="#">Manicure</a></li>
+			   <li><a href="#">Hair clean up</a></li>
+			   <li><a href="#">Waxing</a></li>
+			   <li><a href="#">Keratin treatment</a></li>
+			   <li><a href="#">Hair removal</a></li>
+			   <li><a href="#">Massage</a></li>
+			 </ul>
+		 </div>
+		 <div class="col-lg-3 col-md-6">
+		     <h5>Newsletter</h5>
+			   <div class="form-group mb-4">
+			     <input type="email" class="form-control bg-transparent" placeholder="Enter your email here">
+				 <button type="submit" class="main-btn rounded-2 mt-3 border-white text-white">Subscribe</button>
+			   </div>
+			   <h5>Stay Connected</h5>
+			   <ul class="social-network d-flex align-items-center p-0">
+			     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+				 <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+			   </ul>
+		 </div>
+	 </div>
+ </div>
+ <div class="container-fluid copyright-section">
+     <p>Copyright <a href="#">© Mine.</a> All Rights Reserved</p>
+ </div>
+ 
+</section>
+<!--FOOTER SECTION EXIT-->
+
+
+
+<!--bootstrap 5 js link-->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+   
+<!--swiper js link-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!--custom js link-->
+   <script src="js.js"></script>
+</body>
+</html>
